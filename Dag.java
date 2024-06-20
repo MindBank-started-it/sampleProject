@@ -6,15 +6,13 @@ public class Dag {
 	private Vertex vertexStart;
 	private LinkedList<Edge> dag;
 	
-	public Dag() {
-		
+	public Dag() {		
 	}
 	
 	public Dag(Vertex vertexStart, LinkedList<Edge> dag) {
 		this.vertexStart = vertexStart;
 		this.dag = dag;
 	}
-	
 	
 	public Vertex getVertexStart() {
 		return vertexStart;
